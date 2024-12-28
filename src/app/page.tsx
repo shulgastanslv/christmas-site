@@ -342,10 +342,10 @@ export default function Home() {
                 </h2>
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                   {[
-                    "Наши прогулки",
-                    "Наши улыбки",
-                    "Наши объятия",
-                    "Наши мечты"
+                    "Our walks",
+                    "Our smiles",
+                    "Our hugs",
+                    "Our dreams"
                   ].map((moment, i) => (
                     <motion.div
                       key={i}
